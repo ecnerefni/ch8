@@ -1,4 +1,4 @@
-# pip install uvicorn
+# pip install uvicorn 
 # pip install "fastapi[all]"
 # uvicorn src.main:app
 
@@ -13,4 +13,4 @@ app = FastAPI(
 
 @app.get("/")
 def hello_world():
-    return {"Hello": "World"}
+    return {"hi": "World"}
